@@ -1,0 +1,58 @@
+.campaing-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem 2.5rem;
+    border: 0.15rem solid var(--dark-gray);
+    border-radius: 15px;
+    color: var(--dark-gray);
+}
+
+.campaing-form .form-title {
+    margin-bottom: 1rem;
+}
+
+.is-invalid {
+    border-color: red
+}
+
+.error {
+    color: red;
+    margin-top: 0.25rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    min-width: 35vw;
+    background-color: var(--white);
+    border: 2px solid var(--light-gray);
+    color: var(--light-gray);
+}
+
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.campaing-form button {
+    background-color: var(--green);
+    border-radius: 10px;
+    border: unset;
+}

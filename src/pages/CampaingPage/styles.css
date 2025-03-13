@@ -1,0 +1,12 @@
+.group-button-control {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.group-button-control span{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--dark-gray);
+}

@@ -1,0 +1,66 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+    user-select: none;
+
+    background-color: unset;
+    border: unset;
+}
+
+
+.button svg {
+    height: 100%;
+    width: auto;
+}
+
+.button-sm {
+    height: 2rem;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+}
+
+.button-md {
+    height: 1.2rem;
+    font-size: 0.9rem;
+    padding: 1.2rem 1.8rem;
+}
+
+.button-lg {
+
+}
+
+.button-xl {
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+.button-primary {
+    background-color: var(--green);
+    border-radius: 25px;
+    
+}
+
+.button-secondary {
+    background-color: var(--light-gray);
+    border-radius: 25px;
+}
+
+.button-link {
+    padding: unset;
+}
+
+.button-info {
+    
+}
+
+.button-nav {
+    width: 100%;
+    background-color: var(--green);
+    border: unset;
+}
+

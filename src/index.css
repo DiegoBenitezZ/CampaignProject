@@ -1,0 +1,45 @@
+@font-face {
+  font-family: inter;
+  src: url('/fonts/Inter-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+  font-family: "Inter Italic";
+  src: url('/fonts/Inter-Italic-VariableFont_opsz,wght.ttf');
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --green: #21BF73;
+  --red: #FF312E;
+  --white: #FFFFFA;
+  --dark-gray: #4B3B40;
+  --light-gray: #82735C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 350px;
+
+  background-color: var(--white);
+}

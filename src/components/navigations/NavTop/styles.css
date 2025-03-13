@@ -1,0 +1,21 @@
+#nav-top {
+
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#nav-top .greenting {
+    font-weight: 700;
+    color: var(--white);
+    text-overflow: ellipsis;
+}
+
+#nav-top img {
+    height: 40px;
+    width: auto;
+
+    object-fit: cover;
+    object-position: center;
+}

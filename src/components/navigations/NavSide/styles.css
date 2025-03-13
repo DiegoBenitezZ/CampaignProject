@@ -1,0 +1,32 @@
+#nav-side {
+    display: flex;
+    gap: 1.5rem;
+
+    padding: 1.5rem;
+    background-color: var(--green);
+    z-index: 2;
+}
+
+#nav-side a {
+    text-decoration: none;
+
+}
+
+@media (width < 640px) {
+    #nav-side {
+        justify-content: space-around;
+    }
+}
+
+@media (width >= 640px) {
+    #nav-side {
+        flex-direction: column;
+    }
+}
+
+
+@media (640px <= width < 1024px) {
+    #nav-side .button > span {
+        display: none;
+    }
+}

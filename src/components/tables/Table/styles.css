@@ -1,0 +1,66 @@
+.control-table {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.msg-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-gray);
+    font-weight: 700;
+    border: 0.2rem dashed var(--dark-gray);
+    border-radius: 25px;
+}
+
+.pagination-info {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--dark-gray);
+    text-align: end;
+    margin: 0.5rem auto 0 0;
+}
+
+.primary-table {
+    width: 100%;
+    max-height: 100%;
+    
+    border-radius: 15px;
+    border-collapse: collapse;
+
+    user-select: none;
+    text-align: center;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.primary-table thead {
+    font-weight: 800;
+    color: var(--white);
+    background-color: var(--green);
+    text-transform: capitalize;
+}
+
+.primary-table tbody {
+    position: relative;
+    font-weight: 600;
+    color: var(--dark-gray);
+    overflow-y: auto;
+}
+
+.primary-table td, .primary-table th {
+    padding: 0.3rem;
+}
+
+.primary-table >tbody > tr:hover {
+    color: var(--white);
+    background-color: rgb(247, 70, 70);
+    cursor: pointer;
+}
